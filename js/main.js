@@ -31,7 +31,7 @@ function ActiveHeader(){
     }else if (currentUrl.indexOf('portfolio-item')!== -1 ) {
         $('#productsMenu').addClass('active');
 
-    } else if (currentUrl.indexOf('features')!== -1 || currentUrl.indexOf('factory')!== -1 || currentUrl.indexOf('portfolio')!== -1|| currentUrl.indexOf('coming-soon')!== -1) {
+    } else if (currentUrl.indexOf('features')!== -1 || currentUrl.indexOf('factory')!== -1 || currentUrl.indexOf('portfolio')!== -1|| currentUrl.indexOf('coming-soon')!== -1|| currentUrl.indexOf('health')!== -1) {
         $('#picMenu').addClass('active');
 
     }else if (currentUrl.indexOf('contact')!== -1) {
