@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Business Template</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/bootstrap-overrides.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection">    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="pull_top">
+    <div id="header" class="navbar transparent navbar-inverse navbar-fixed-top">
+
+    </div>
+
+    <section id="feature_slider" class="">
+        <!--
+            Each slide is composed by <img> and .info
+            - .info's position is customized with css in index.css
+            - each <img> parallax effect is declared by the following params inside its class:
+
+            example: class="asset left-472 sp600 t120 z3"
+            left-472 means left: -472px from the center
+            sp600 is speed transition
+            t120 is top to 120px
+            z3 is z-index to 3
+            Note: Maintain this order of params
+
+            For the backgrounds, you can combine from the bgs folder :D
+        -->
+        <article class="slide" id="showcasing" style="background: url('img/backgrounds/landscape.png') repeat-x top center;">
+            <img class="asset left-30 sp600 t120 z1" src="./maybe/5.png" />
+            <div class="info" >
+                <h2>آب مدنی برای سلامتی شما مفید است. </h2>
+            </div>
+        </article>
+        <article class="slide" id="ideas" style="background: url('img/backgrounds/aqua.jpg') repeat-x top center;">
+            <div class="info" >
+                <h2>ویژگی‌های آب مدنی‌های نپتون</h2>
+            </div>
+            <img class="asset left-480 sp600 t-10 z1" src="./maybe/water_splash_png_by_starlaa1-d51fsk1.png" />
+            <!--<img class="asset left-210 sp600 t213 z2" src="./img/middle.png" />-->
+            <!--<img class="asset left60 sp600 t260 z1" src="./img/right.png" />-->
+        </article>
+        <article class="slide" id="tour" style="background: url('img/backgrounds/color-splash.jpg') repeat-x top center;">
+            <img class="asset left-472 sp650 t210 z3" src="img/slides/scene3/ipad.png" />
+            <img class="asset left-365 sp600 t270 z4" src="img/slides/scene3/iphone.png" />
+            <img class="asset left-350 sp450 t135 z2" src="img/slides/scene3/desktop.png" />
+            <img class="asset left-185 sp550 t220 z1" src="img/slides/scene3/macbook.png" />
+            <div class="info">
+                <h2>روند تولید در کارخانه‌</h2>
+                <a href="features.html">چگونگی تولید </a>
+            </div>
+        </article>
+        <article class="slide" id="responsive" style="background: url('img/backgrounds/indigo.jpg') repeat-x top center;">
+            <img class="asset left-472 sp600 t120 z3" src="img/slides/scene4/html5.png" />
+            <img class="asset left-190 sp500 t120 z2" src="img/slides/scene4/css3.png" />
+            <div class="info">
+                <h2>
+                    محصولات  <strong>نپتون  </strong>
+                    بطری‌های ۱۵۰۰ و ۵۰۰ سی‌ سی‌
+                </h2>
+            </div>
+        </article>
+    </section>
+
+    <!--<section id="feature_slider" class="">-->
+    <!--&lt;!&ndash;-->
+    <!--Each slide is composed by <img> and .info-->
+    <!--- .info's position is customized with css in index.css-->
+    <!--- each <img> parallax effect is declared by the following params inside its class:-->
+
+    <!--example: class="asset left-472 sp600 t120 z3"-->
+    <!--left-472 means left: -472px from the center-->
+    <!--sp600 is speed transition-->
+    <!--t120 is top to 120px-->
+    <!--z3 is z-index to 3-->
+    <!--Note: Maintain this order of params-->
+
+    <!--For the backgrounds, you can combine from the bgs folder :D-->
+    <!--&ndash;&gt;-->
+    <!--<article class="slide" id="showcasing"-->
+    <!--style="background-image: url(http://cleancanvas.herokuapp.com/img/backgrounds/landscape.png); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">-->
+    <!--<img class="asset left-30 sp600 t120 z1" src="./img/macbook.png"-->
+    <!--style="left: -966px; top: 120px; z-index: 1; display: inline-block;">-->
+
+    <!--<div class="info" style="display: none;">-->
+    <!--<h2>Beautiful theme for showcasing your works.</h2>-->
+    <!--</div>-->
+    <!--</article>-->
+    <!--<article class="slide" id="ideas"-->
+    <!--style="background-image: url(http://cleancanvas.herokuapp.com/img/backgrounds/aqua.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">-->
+    <!--<div class="info" style="display: none;">-->
+    <!--<h2>ویژگی‌های آب مدنی‌های نپتون</h2>-->
+    <!--</div>-->
+    <!--<img class="asset left-480 sp600 t260 z1" src="./img/left.png"-->
+    <!--style="left: -841px; top: 260px; z-index: 1; display: inline-block;">-->
+    <!--<img class="asset left-210 sp600 t213 z2" src="./img/middle.png"-->
+    <!--style="left: -854px; top: 213px; z-index: 2; display: inline-block;">-->
+    <!--<img class="asset left60 sp600 t260 z1" src="./img/right.png"-->
+    <!--style="left: -849px; top: 260px; z-index: 1; display: inline-block;">-->
+    <!--</article>-->
+    <!--<article class="slide" id="tour"-->
+    <!--style="background-image: url(http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">-->
+    <!--<img class="asset left-472 sp650 t210 z3" src="./img/ipad.png"-->
+    <!--style="left: -558px; top: 210px; z-index: 3; display: inline-block;">-->
+    <!--<img class="asset left-365 sp600 t270 z4" src="./img/iphone.png"-->
+    <!--style="left: -485px; top: 270px; z-index: 4; display: inline-block;">-->
+    <!--<img class="asset left-350 sp450 t135 z2" src="./img/desktop.png"-->
+    <!--style="left: -742px; top: 135px; z-index: 2; display: inline-block;">-->
+    <!--<img class="asset left-185 sp550 t220 z1" src="./img/macbook(1).png"-->
+    <!--style="left: -746px; top: 220px; z-index: 1; display: inline-block;">-->
+
+    <!--<div class="info" style="display: none;">-->
+    <!--<h2>روند تولید در کارخانه‌‌</h2>-->
+    <!--<a href="http://cleancanvas.herokuapp.com/features.html">چگونگی تولید </a>-->
+    <!--</div>-->
+    <!--</article>-->
+    <!--<article class="slide active" id="responsive"-->
+    <!--style="background-image: url(http://cleancanvas.herokuapp.com/img/backgrounds/indigo.jpg); display: block; background-position: 50% 0%; background-repeat: repeat no-repeat;">-->
+    <!--<img class="asset left-472 sp600 t120 z3" src="./img/html5.png"-->
+    <!--style="left: 203.5px; top: 120px; z-index: 3; display: inline-block;">-->
+    <!--<img class="asset left-190 sp500 t120 z2" src="./img/css3.png"-->
+    <!--style="left: 485.5px; top: 120px; z-index: 2; display: inline-block;">-->
+
+    <!--<div class="info" style="display: block;">-->
+    <!--<h2>-->
+    <!--محصولات  <strong>نپتون  </strong>-->
+    <!--بطری‌های ۱۵۰۰ و ۵۰۰ سی‌ سی‌-->
+    <!--</h2>-->
+    <!--</div>-->
+    <!--</article>-->
+    <!--<ul id="pagination" style="left: 647.5px; display: block;">-->
+    <!--<li class=""><a href="http://cleancanvas.herokuapp.com/index.html#showcasing">0</a></li>-->
+    <!--<li class=""><a href="http://cleancanvas.herokuapp.com/index.html#ideas">1</a></li>-->
+    <!--<li class=""><a href="http://cleancanvas.herokuapp.com/index.html#tour">2</a></li>-->
+    <!--<li class="active"><a href="http://cleancanvas.herokuapp.com/index.html#responsive">3</a></li>-->
+    <!--</ul>-->
+    <!--<a href="" id="slide-left" style="display: inline;"></a><a href="" id="slide-right" style="display: inline;"></a>-->
+    <!--</section>-->
+
+    <div id="showcase">
+        <div class="container">
+            <div class="section_header">
+                <h3 style="float: right;">محاسن آب مدنی نپتون</h3>
+            </div>
+            <div class="row feature_wrapper">
+                <!-- Features Row -->
+                <div class="features_op1_row">
+                    <!-- Feature -->
+                    <div class="span4 feature first">
+                        <div class="img_box">
+                            <a href="http://cleancanvas.herokuapp.com/services.html">
+                                <img src="./img/service1.png">
+                                <span class="circle">
+                                    <span class="plus">+</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h6>PH آب</h6>
+
+                            <p>
+                                PH خون انسان نزديک به 7.4 است . هر چه این PH به سمت قلیائی شدن نزدیک شود برای سلامتی مناسبتر
+                                است </p>
+                            <a>بیشتر بخوانید</a>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="span4 feature">
+                        <div class="img_box">
+                            <a href="http://cleancanvas.herokuapp.com/services.html">
+                                <img src="./img/service2.png">
+                                <span class="circle">
+                                    <span class="plus">+</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h6>نیترات آب</h6>
+
+                            <p>
+                                نیترات آب آشامیدنی لوله‌کشی 150 برابر آب های بسته بندی است
+                            </p>
+                            <a>بیشتر بخوانید</a>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="span4 feature last">
+                        <div class="img_box">
+                            <a href="http://cleancanvas.herokuapp.com/services.html">
+                                <img src="./img/service3.png">
+                                <span class="circle">
+                                    <span class="plus">+</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <h6>کارخانه‌‌ نپتون</h6>
+
+                            <p>
+                                این کارخانه در منطقه دواب سواد کوه مازندران در حاشیه جاده قائمشهر به فیروزکوه در 184 کیلومتری تهران قرار گرفته است. شروع بهره برداری کارخانه در سال 1391 می باشد.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="features">
+        <div class="container">
+            <div class="section_header">
+                <h3 style="float: right;">ویژگیها</h3>
+            </div>
+            <div class="row feature">
+                <div class="span6">
+                    <img src="./img/showcase1.png">
+                </div>
+                <div class="span6 info">
+                    <h3>
+                        <img src="./img/features-ico1.png"> ویژگی‌های آب نپتون </h3>
+
+                    <p>
+                        آب نپتون ابی گوارا و زلال بر گرفته از چشمه ای واقع در ارتفاعات البز مرکزی به نام پری چشمه می باشد.  این چشمه در کوهی بشکل  کله قند قرار گرفته که سرخل (دبرار) نامیده می شود. قله سرخل از سطح دریا2125 متر ارتفاع  دارد. یال های غربی و شمال و جنوبی آن  تا ارتفاع 1100 متری از سطح دریا صخره ای با شیب بسیار تند می باشد. به همین دليل سکونت انسان و چرای دام در این ارتفاعات غیر ممکن است و اين موضوع سبب گردیده تا آب چشمه های این ارتفاعات عاری ازهر گونه آلودگي دامی و حیواتی و صنعتي باشد.
+                    </p>
+                </div>
+            </div>
+            <div class="row feature ss">
+                <div class="span6 info">
+                    <h3>
+                        <img src="./img/features-ico2.png">
+                        چرا نپتون؟
+
+                    </h3>
+
+                    <p>
+
+
+                        نپتون يك لغت  بسيار قديمي يونانی ، به معناي خداي آب است. همچنین به الهه دریاها نیز خوانده شده است.
+
+                        از طرفی نپتون نام آخرین سیاره منظومه شمسی می باشد. کشف این سیاره در بین سالهای ۱۷۹۰ تا ۱۸۴۰ صورت گرفته است. به دلیل وجود گاز متان در جو این سیاره رنگ های زرد و قرمز نور خورشید جذب و رنگ آبی منعکس می شود، و به همین دلیل رنگ این سیاره آبی به نظر می آید. جو نپتون ۸۰ تا ۸۵درصدهیدروژن و ۱۰ تا ۱۵ درصد هلیوم دارد. این سیاره دارای دو قمر به نام های نرئید و تریتون است. به دلیل دوری زیاد این سیاره نسبت به خورشید دمای سطح آن بسیار سرد است.
+
+                    </p>
+                </div>
+                <div class="span6">
+                    <img src="./img/showcase2.png" class="pull-right">
+                </div>
+            </div>
+            <!--<div class="row feature ss">-->
+            <!--<div class="span6">-->
+            <!--<img src="./img/showcase3.png">-->
+            <!--</div>-->
+            <!--<div class="span6 info">-->
+            <!--<h3>-->
+            <!--<img src="./img/features-ico3.png">-->
+            <!--Simple and clean coming soon page-->
+            <!--</h3>-->
+
+            <!--<p>-->
+            <!--There are many variations of passages of Lorem Ipsum available, but the randomised words which don't-->
+            <!--look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure-->
+            <!--there isn't anything embarrassing hidden in the middle of text.-->
+            <!--</p>-->
+            <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+
+
+    <!-- Pricing Option -->
+    <div id="in_pricing">
+        <div class="container">
+            <div class="section_header">
+                <h3 style="float: right;">محصولات</h3>
+            </div>
+
+            <div class="row charts_wrapp"  style="float: right;">
+                <!-- Plan Box -->
+                <div class="span4 pro">
+                    <div class="plan">
+                        <div class="wrapper">
+                            <h3>آب آشامیدنی 1500 سی سی</h3>
+
+                            <div class="price">
+                                <span class="dollar">$</span>
+                                <span class="qty">3</span>
+                                <span class="month">/month</span>
+                            </div>
+                            <div class="features">
+                                <p>
+                                    <strong>69%</strong>
+                                    کلسیم
+                                </p>
+
+                                <p>
+                                    <strong>69.8%</strong>
+                                    منیزیم
+                                </p>
+
+                                <p>
+
+                                    بدون نیتریت
+                                </p>
+                                <p>
+                                    به دلیل قلیایی بودن شادی آفرین
+                                </p>
+                            </div>
+                            <a class="order" href="http://cleancanvas.herokuapp.com/pricing.html">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plan Box -->
+                <div class="span4 pro">
+                    <div class="plan">
+                        <div class="wrapper">
+                            <img class="ribbon" src="./img/badge.png">
+
+                            <h3>آب آشامیدنی 500 سی سی</h3>
+
+                            <div class="price">
+                                <span class="dollar">$</span>
+                                <span class="qty">1</span>
+                                <span class="month">/month</span>
+                            </div>
+                            <div class="features">
+                                <p>
+                                    <strong>69%</strong>
+                                    کلسیم
+                                </p>
+
+                                <p>
+                                    <strong>69.8%</strong>
+                                    منیزیم
+                                </p>
+
+                                <p>
+
+                                    بدون نیتریت
+                                </p>
+                                <p>
+                                    به دلیل قلیایی بودن شادی آفرین
+                                </p>
+                            </div>
+                            <a class="order" href="http://cleancanvas.herokuapp.com/pricing.html">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="start">
+                <p>چرا آب مدنی نپتون از بسیاری از آب مدنی‌های دیگر بهتر است؟ </p>
+                <a href="./features.html">بیشتر بدانیم!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="clients">
+        <div class="container">
+            <div class="section_header">
+                <h3 style="float: right;">مشتری ها</h3>
+            </div>
+            <div class="row">
+                <div class="span2 client">
+                    <div class="img client1"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client2"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client3"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client1"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client2"></div>
+                </div>
+                <div class="span2 client">
+                    <div class="img client3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- starts footer -->
+    <footer id="footer">
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/index-slider.js"></script>	
+</body>
+</html>
